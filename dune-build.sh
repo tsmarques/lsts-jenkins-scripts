@@ -21,7 +21,7 @@ if [ -z "$src_dir" ]; then
     src_dir=../$target_system
 fi
 
-cd $work_dir && rm -rf ./target_system
+cd $work_dir && rm -rf ./$target_system
 
 # final package
 sys_package=dune-*.tar.bz2
